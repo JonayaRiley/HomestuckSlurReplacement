@@ -19,6 +19,11 @@ By Jonaya Riley (@AltUniverseWash on Twitter)
 	The files being replaced are located in your asset directory in the following sub-locations:
 		\archives\data\mspa.json
 		\archives\data\search.json
+		\archives\collection\collection_logo.png
+		\storyfiles\hs2\00069_2.gif
+		\storyfiles\hs2\00249_2.gif
+		\storyfiles\hs2\03692\03682.swf
+		\storyfiles\hs2\03692\03682_hq.swf
 	
 	Back this file up if you want to return to the original text for whatever reason.
 
@@ -29,3 +34,7 @@ By Jonaya Riley (@AltUniverseWash on Twitter)
 	Please feel free to drop me a line on Twitter (@AltUniverseWash) if you like this or want to suggest additional changes.
 
 	If you feel the need to tell me that this is a bad project idea, please don't.
+	
+5. Known issues
+
+	-Slurs present in all flashes aren't currently addressed (working on it!)
