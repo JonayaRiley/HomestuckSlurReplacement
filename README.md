@@ -27,6 +27,13 @@ The files being replaced are located in your asset directory in the following su
 \storyfiles\hs2\00249_2.gif
 \storyfiles\hs2\03692\03682.swf
 \storyfiles\hs2\03692\03682_hq.swf
+\storyfiles\hs2\05305\levels\openbound_p2\cronusDialog.xml
+\storyfiles\hs2\05395\levels\openbound_p3\dialogs\rufiohDialog.xml
+\storyfiles\hs2\03318\03318.swf
+\storyfiles\hs2\03318\03318_hq.swf
+\advimgs\ps\ps162.gif
+\advimgs\ps\ps1520_1.gif
+\advimgs\ps\ps1521.gif
 ```
 Back this file up if you want to return to the original text for whatever reason.
 
