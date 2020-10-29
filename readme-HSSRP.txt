@@ -28,6 +28,9 @@ By Jonaya Riley (@AltUniverseWash on Twitter)
 		\storyfiles\hs2\03318\03318.swf
 		\storyfiles\hs2\03318\03318_hq.swf
 		\advimgs\ps\ps162.gif
+		\advimgs\ps\ps1520_1.gif
+		\advimgs\ps\ps1521.gif
+		\storyfiles\hs2\01064_1.gif
 
 	
 	Back this file up if you want to return to the original text for whatever reason.
