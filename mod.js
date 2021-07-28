@@ -480,6 +480,86 @@ module.exports = {
 
         // Todo: This is no longer how banners are stored.
 
+
+        archive.social.blogspot[12].html = archive.social.blogspot[12].html.replace(
+          "                 11 my teachers thought I was retarded. This isn't some sort of joke to", 
+          "                 11 my teachers thought I was [EMOTIONAL SUPPORT SLUR]ed. This isn't some sort of joke to")
+        archive.social.blogspot[16].html = archive.social.blogspot[16].html.replace(
+          '                 genuinely like this retarded painting (which I do!). Notice how I', 
+          '                 genuinely like this [EMOTIONAL SUPPORT SLUR]ed painting (which I do!). Notice how I')
+        // archive.social.dstrider[5].html
+        {[
+          [
+            "            maybe what i mean is i wish i was the one who made that website. why is it the best kind of irony is always the unintended kind. dammit this candy slinging jackass doesnt even realize what a fucking genius he is. because hes too fucking stupid. stupid enough to think that a bunch of street savvy, mishapen headed, weirdly mongoloid looking motherfuckers is a one way ticket to selling a goddamn tsunami of candy",
+            "            maybe what i mean is i wish i was the one who made that website. why is it the best kind of irony is always the unintended kind. dammit this candy slinging jackass doesnt even realize what a fucking genius he is. because hes too fucking stupid. stupid enough to think that a bunch of street savvy, weird-face, head-ass looking motherfuckers is a one way ticket to selling a goddamn tsunami of candy"
+          ],
+          [
+            "            ok i cant even say for sure if \"cool\" is even what they were going for here. reminds me of like in movies when they try to dress a drunk guy up to stand in as someone respectable to pull off a ruse, or maybe a dead guy like weekend at bernies. or a retarded guy who happens to be good at something but cant be no damn retarded guy or he'll b disqualified from the competition or whatever.",
+            "            ok i cant even say for sure if \"cool\" is even what they were going for here. reminds me of like in movies when they try to dress a drunk guy up to stand in as someone respectable to pull off a ruse, or maybe a dead guy like weekend at bernies. or like a dude who pretends to be a rich person butler to steal shit and if they find out they'll fuckin cut his dick off. i dunno. shit."
+          ],
+          [
+            "            also hes not too keen on homework and i cant say i blame him, oh also he doesnt like not having money, and i mean damn son who DONT like being no broke ass nigga???? whoever wrote this shit needs to step on a rake in a comedic fashion",
+            "            also hes not too keen on homework and i cant say i blame him, oh also he doesnt like not having money, and i mean damn son who DONT like being no broke ass mothafucker???? whoever wrote this shit needs to step on a rake in a comedic fashion"
+          ]
+        ].forEach(t => (archive.social.dstrider[5].html = archive.social.dstrider[5].html.replace(t[0], t[1])))}
+        archive.social.dstrider[6].html = archive.social.dstrider[6].html.replace(
+          'skateboards havent been asserted as legitimately cool since probably michael j fox outmaneuvered biff in the fifties and fed him a world of cowshit i think to prevent himself from fucking his own mom. that and bart simpson. but bart simpson was never cool, no one ever actually thought he was cool even in the thick of their early ninties delirium. he never actually said anything clever and now that i think about it he was vaguely effeminate, which would be fine i guess but it betrayed his wafer thin eat my shorts attitude. maybe 20 years of having your lines delivered by a woman will make that happen. seriously even the idiots in the 90s werent really sure what eat my shorts meant. its like they were aware it was a retarded thing to say on some level albeit dimly, and let some shitty characterization slide cause it was a funny show. dear matt groening being a "cool kid" means more than hating school and dishing out mediocre sass over the span of 7 presidential terms. i dont know this character is so old already maybe i should start ripping jughead a new asshole or maybe lil abner while im at it. what the fuck am i even doing', 
+          'skateboards havent been asserted as legitimately cool since probably michael j fox outmaneuvered biff in the fifties and fed him a world of cowshit i think to prevent himself from fucking his own mom. that and bart simpson. but bart simpson was never cool, no one ever actually thought he was cool even in the thick of their early ninties delirium. he never actually said anything clever and now that i think about it he was vaguely effeminate, which would be fine i guess but it betrayed his wafer thin eat my shorts attitude. maybe 20 years of having your lines delivered by a woman will make that happen. seriously even the idiots in the 90s werent really sure what eat my shorts meant. its like they were aware it was a fucking dumbass thing to say on some level albeit dimly, and let some shitty characterization slide cause it was a funny show. dear matt groening being a "cool kid" means more than hating school and dishing out mediocre sass over the span of 7 presidential terms. i dont know this character is so old already maybe i should start ripping jughead a new asshole or maybe lil abner while im at it. what the fuck am i even doing')
+        archive.social.formspring.andrewhussie[24].html = archive.social.formspring.andrewhussie[24].html.replace(
+          "i would use my powers to call one of my homies and say yo dogg you gotta drive me to the hospital because i just did something fuckin RETARDED with a pogo stick. ha ha no dude i'll tell you when you get here just hurry man i'm hurt pretty bad", 
+          "i would use my powers to call one of my homies and say yo dogg you gotta drive me to the hospital because i just did something fuckin [EMOTIONAL SUPPORT SLUR]ED with a pogo stick. ha ha no dude i'll tell you when you get here just hurry man i'm hurt pretty bad")
+        archive.social.formspring.andrewhussie[36].html = archive.social.formspring.andrewhussie[36].html.replace(
+          "clearly a lot of these questions are ass backward window licking retarded but no need to be rude andrew. how do you plan to reconcile all these people you've offended?", 
+          "clearly a lot of these questions are ass backward window licking [EMOTIONAL SUPPORT SLUR]ed but no need to be rude andrew. how do you plan to reconcile all these people you've offended?")
+        // archive.social.formspring.andrewhussie[237].html
+        {[
+          [
+            "\u201cA blur of black in a dim room. As the emperor ponders his koans, he cracks an eyelid. But it\u2019s too late. Who else could make off with ancient scrolls and the lion\u2019s share of a kind emperor\u2019s spine before the shutter has yet swung closed from entry? If your answer was \u2018not a ninja\u2019, you\u2019re fucking retarded.\u201d",
+            "\u201cA blur of black in a dim room. As the emperor ponders his koans, he cracks an eyelid. But it\u2019s too late. Who else could make off with ancient scrolls and the lion\u2019s share of a kind emperor\u2019s spine before the shutter has yet swung closed from entry? If your answer was \u2018not a ninja\u2019, you\u2019re fucking [EMOTIONAL SUPPORT SLUR]ed.\u201d"
+          ],
+          [
+            "Call Things \u201cRetarded\u201d.",
+            "Call Things \u201c[EMOTIONAL SUPPORT SLUR]ed\u201d."
+          ],
+          [
+            "If you don\u2019t see why this word by itself is milk nostril-evacuatingly side-splitting, you\u2019re fucking retarded.",
+            "If you don\u2019t see why this word by itself is milk nostril-evacuatingly side-splitting, you\u2019re fucking [EMOTIONAL SUPPORT SLUR]ed."
+          ],
+          [
+            "Actor B: \u201cYou must be retarded. You\u2019re so retarded, your grandmother was raped by fucking pirates.\u201d",
+            "Actor B: \u201cYou must be [EMOTIONAL SUPPORT SLUR]ed. You\u2019re so [EMOTIONAL SUPPORT SLUR]ed, your grandmother was raped by fucking pirates.\u201d"
+          ],
+          [
+            "Actor A: \u201cDon\u2019t say shit about my grandmother. She WAS a pirate. Trained by secret ninjas to do some totally un-gay moves on retarded gay people like you.\u201d",
+            "Actor A: \u201cDon\u2019t say shit about my grandmother. She WAS a pirate. Trained by secret ninjas to do some totally un-gay moves on [EMOTIONAL SUPPORT SLUR]ed gay people like you.\u201d"
+          ]
+        ].forEach(t => (archive.social.formspring.andrewhussie[237].html = archive.social.formspring.andrewhussie[237].html.replace(t[0], t[1])))}
+        archive.social.formspring.andrewhussie[547].html = archive.social.formspring.andrewhussie[547].html.replace(
+          "Many critics are very naive in this sense, and these people I would not even regard as real critics at all. More like just complainers. They leverage their dissatisfaction under the guise of criticism, and if their grievances are dismissed, the creator is accused of being deaf to criticism. A little like suitors spurned by a woman will accuse her of being icy. Creators have a responsibility to vet their critics, to know how deep the critic's appreciation and understanding of the material is first before putting value on their advice. To understand whether the critic is capable of quality thought and observation. To apply a critical process to the critic itself. Some critics believe they themselves are immune to criticism! Not all opinions and perspectives are equal, and it's dangerous and incredibly stupid for creators to treat them as such. Would you take advice on how to improve your life from a retarded person? You see, we actually do this every day. We vet those who would counsel us on our daily lives, who we would trust to guide us in the right direction.", 
+          "Many critics are very naive in this sense, and these people I would not even regard as real critics at all. More like just complainers. They leverage their dissatisfaction under the guise of criticism, and if their grievances are dismissed, the creator is accused of being deaf to criticism. A little like suitors spurned by a woman will accuse her of being icy. Creators have a responsibility to vet their critics, to know how deep the critic's appreciation and understanding of the material is first before putting value on their advice. To understand whether the critic is capable of quality thought and observation. To apply a critical process to the critic itself. Some critics believe they themselves are immune to criticism! Not all opinions and perspectives are equal, and it's dangerous and incredibly stupid for creators to treat them as such. Would you take advice on how to improve your life from a [EMOTIONAL SUPPORT SLUR]ed person? You see, we actually do this every day. We vet those who would counsel us on our daily lives, who we would trust to guide us in the right direction.")
+        archive.social.formspring.andrewhussie[879].html = archive.social.formspring.andrewhussie[879].html.replace(
+          "My school is going to do this retarded mural thing, made by students. You're skinny enough to pass for a teenager, so you wanna give us a hand? I don't have the cash, but I could probably gank five thousand one dollar McDonald's coupons.", 
+          "My school is going to do this [EMOTIONAL SUPPORT SLUR]ed mural thing, made by students. You're skinny enough to pass for a teenager, so you wanna give us a hand? I don't have the cash, but I could probably gank five thousand one dollar McDonald's coupons.")
+        archive.social.formspring.andrewhussie[984].html = archive.social.formspring.andrewhussie[984].html.replace(
+          'And now having said that, I will put my ear to the ground and listen for the pounding hooves of the retarded cavalry.', 
+          'And now having said that, I will put my ear to the ground and listen for the pounding hooves of the [EMOTIONAL SUPPORT SLUR]ed cavalry.')
+        archive.social.formspring.mspadventures[64].html = archive.social.formspring.mspadventures[64].html.replace(
+          'Your DB references, they sting. But if I tried again in a less retarded', 
+          'Your DB references, they sting. But if I tried again in a less [EMOTIONAL SUPPORT SLUR]ed')
+        archive.social.formspring.mspadventures[165].html = archive.social.formspring.mspadventures[165].html.replace(
+          "She'll probably think I'm retarded though, sort of like how I feel about", 
+          "She'll probably think I'm [EMOTIONAL SUPPORT SLUR]ed though, sort of like how I feel about")
+        archive.social.tumblr[23].html = archive.social.tumblr[23].html.replace(
+          '                     was like, this sounds retarded. And I was like, awesome, Jeffrey’s on board. John Keogh was musing', 
+          '                     was like, this sounds [EMOTIONAL SUPPORT SLUR]ed. And I was like, awesome, Jeffrey’s on board. John Keogh was musing')
+        archive.social.tumblr[60].html = archive.social.tumblr[60].html.replace(
+          '<em>Who is the most retarded character of homestuck?</em>', 
+          '<em>Who is the most [EMOTIONAL SUPPORT SLUR]ed character of homestuck?</em>')
+
+        // TODO: News structure has also changed. But there aren't any slurs there, apparently.? So maybe that's done already
+
+        
+
     },
 
 }
