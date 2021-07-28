@@ -4,6 +4,13 @@ module.exports = {
     author: "Jonaya Riley (@AltUniverseWash)",
     modVersion: 0.1,
 
+    trees: {
+        './advimgs/': 'assets://advimgs/',
+        './storyfiles/': 'assets://storyfiles/',
+        './sweetbroandhellajeff/': 'assets://sweetbroandhellajeff/',
+        './archive/comics/': 'assets://archive/comics/'
+    },
+
     edit(archive) {
         archive.mspa.story['000126'].content = archive.mspa.story['000126'].content.replace(
           "You're beginning to suspect this was a retarded idea.", 
@@ -558,7 +565,7 @@ module.exports = {
 
         // TODO: News structure has also changed. But there aren't any slurs there, apparently.? So maybe that's done already
 
-        
+
 
     },
 
