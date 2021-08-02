@@ -1,8 +1,28 @@
 
 module.exports = {
     title: "The Homestuck Slur Replacement Project", 
-    author: "Jonaya Riley (@AltUniverseWash)",
-    modVersion: 0.1,
+    author: "Jonaya Riley (<a href='https://twitter.com/altuniversewash'>@AltUniverseWash</a>)",
+    modVersion: 2.0,
+
+    description: `<h3>About this project</h3>
+
+<p>This project is an addon to the Unofficial Homestuck Collection that aims to replace instances of various ableist slurs throughout Homestuck in a way that doesn't only censor the slurs, but also preserves (and sometimes enhances) the original intent behind the dialogue. There are cases where writing around the use of the slur actually enhances the impact of some of the dialogue.</p>
+<p>The project is being written and maintained by Jonaya Riley (@AltUniverseWash), a writer in the Homestuck fan community.</p>
+
+<h3>Scope of changes</h3>
+
+<p>All instances of the R-slur as well as all uses of the word "autistic" have been altered to convey the same basic intent without using ableist slurs. In some cases, I saw an opportunity to enhance the original dialogue with wordplay or alternative phrasing that provides additional variety beyond simply spamming out a slur over and over.</p>
+<p>I have attempted to remove ALL instances of these slurs, including at least one in Terezi's quirk. If you happen to notice any I missed, please DM me on Twitter!</p>
+
+<h3>Additional notes</h3>
+
+<p>Please feel free to drop me a line on Twitter (<a href="https://twitter.com/altuniversewash">@AltUniverseWash</a>) if you like this or want to suggest additional changes.</p>
+<p>If you feel the need to tell me that this is a bad project idea, please don't.</p>
+
+<h3>Known issues</h3>
+<ul>
+    <li>Slurs present in all flashes aren't currently addressed (working on it!)</li>
+</ul>`,
 
     trees: {
         './advimgs/': 'assets://advimgs/',
