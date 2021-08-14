@@ -270,6 +270,8 @@ module.exports = {
           '<span style="color: #626262">FCG: JADE, I\'M SORRY ABOUT PAST ME\'S RETARDED BEHAVIOR.</span>', 
           '<span style="color: #626262">FCG: JADE, I\'M SORRY ABOUT PAST ME\'S FUCKSHIT BEHAVIOR.</span>')
         // archive.mspa.story['004821'].content
+        // This one looks like it was actually a major rewrite that moved some lines around, so
+        // the later half isn't actually very optimized by the script.
         {[
           [
             "<span style=\"color: #0715cd\">EB: i did see a black guy wrapped up in my ghosty bed sheets.</span>",
@@ -280,108 +282,16 @@ module.exports = {
             "<span style=\"color: #b536da\">TT: A weird, short dude?"
           ],
           [
-            "<span style=\"color: #0715cd\">EB: oh...</span>",
-            "<span style=\"color: #b536da\">TT: John that's a... staggeringly unhelpful description.</span>"
-          ],
-          [
             "<span style=\"color: #0715cd\">EB: i do not mean like, an african american or anything.</span>",
-            "<span style=\"color: #0715cd\">EB: oh...</span>"
+            ""
           ],
           [
             "<span style=\"color: #0715cd\">EB: like bill cosby.</span>",
-            "<span style=\"color: #0715cd\">EB: you know. he was weird. and short.</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Thanks for clearing that up.</span>",
             "<span style=\"color: #0715cd\">EB: like a gnome!</span>"
           ],
           [
             "<span style=\"color: #0715cd\">EB: r.i.p. bill. :(</span>",
-            "<span style=\"color: #b536da\">TT: Thanks for clearing that up.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: this fellow had a hard black shell, like all the dead guys do.</span>",
             "<span style=\"color: #0715cd\">EB: r.i.p. gnomeo. :(</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: i followed him for a bit...</span>",
-            "<span style=\"color: #0715cd\">EB: this fellow had a hard black shell, like all the dead guys do.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: and then some sorta ruckus transpired, and i woke up.</span>",
-            "<span style=\"color: #0715cd\">EB: i followed him for a bit...</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: and now jade won't answer!</span>",
-            "<span style=\"color: #0715cd\">EB: and then some sorta ruckus transpired, and i woke up.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: do you know if she's ok?</span>",
-            "<span style=\"color: #0715cd\">EB: and now jade won't answer!</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: She's fine.</span>",
-            "<span style=\"color: #0715cd\">EB: do you know if she's ok?</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: But you're not.</span>",
-            "<span style=\"color: #b536da\">TT: She's fine.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: i'm not?</span>",
-            "<span style=\"color: #b536da\">TT: But you're not.</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Remember how I said your planet was on fire?</span>",
-            "<span style=\"color: #0715cd\">EB: i'm not?</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: oh yeah...</span>",
-            "<span style=\"color: #b536da\">TT: Remember how I said your planet was on fire?</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: that didn't by any chance stop being a thing that was true, did it?</span>",
-            "<span style=\"color: #0715cd\">EB: oh yeah...</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: It did not.</span>",
-            "<span style=\"color: #0715cd\">EB: that didn't by any chance stop being a thing that was true, did it?</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Do you see that pinkish hue behind you, bleeding over the horizon?</span>",
-            "<span style=\"color: #b536da\">TT: It did not.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: fuck!!!</span>",
-            "<span style=\"color: #b536da\">TT: Do you see that pinkish hue behind you, bleeding over the horizon?</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: rose, this is all oil! it'll all just explode any second, won't it???</span>",
-            "<span style=\"color: #0715cd\">EB: fuck!!!</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: I don't think the fire's rate of propagation is quite as fast as you're imagining.</span>",
-            "<span style=\"color: #0715cd\">EB: rose, this is all oil! it'll all just explode any second, won't it???</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: But the danger is still significant.</span>",
-            "<span style=\"color: #b536da\">TT: I don't think the fire's rate of propagation is quite as fast as you're imagining.</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Especially considering that your bed is sinking.</span>",
-            "<span style=\"color: #b536da\">TT: But the danger is still significant.</span>"
-          ],
-          [
-            "<span style=\"color: #0715cd\">EB: fuuuuuuuuuuuck!!!!!!!</span>",
-            "<span style=\"color: #b536da\">TT: Especially considering that your bed is sinking.</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Relax.</span>",
-            "<span style=\"color: #0715cd\">EB: fuuuuuuuuuuuck!!!!!!!</span>"
-          ],
-          [
-            "<span style=\"color: #b536da\">TT: Look to your right.</span>",
-            "<span style=\"color: #b536da\">TT: Relax.</span>"
           ]
         ].forEach(t => (archive.mspa.story['004821'].content = archive.mspa.story['004821'].content.replace(t[0], t[1])))}
         archive.mspa.story['004829'].content = archive.mspa.story['004829'].content.replace(
