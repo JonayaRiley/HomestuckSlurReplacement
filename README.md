@@ -2,13 +2,13 @@
 ---
 ## The Homestuck Slur Replacement Project
 
-By Jonaya Riley ([@AltUniverseWash](https://twitter.com/altuniversewash) on Twitter)
+By Jonaya Riley ([@JonayaRiley](https://twitter.com/jonayariley) on Twitter)
 
 ### About this project
 
 This project is an addon to the Unofficial Homestuck Collection that aims to replace instances of various ableist slurs throughout Homestuck in a way that doesn't only censor the slurs, but also preserves (and sometimes enhances) the original intent behind the dialogue. There are cases where writing around the use of the slur actually enhances the impact of some of the dialogue.
 
-The project is being written and maintained by Jonaya Riley (@AltUniverseWash), a writer in the Homestuck fan community.
+The project is being written and maintained by Jonaya Riley (@JonayaRiley), a writer in the Homestuck fan community.
 
 ### Scope of changes
 
@@ -41,7 +41,7 @@ You can either manually extract the file or extract the ZIP file into your base 
 
 ### Additional notes
 
-Please feel free to drop me a line on Twitter ([@AltUniverseWash](https://twitter.com/altuniversewash)) if you like this or want to suggest additional changes.
+Please feel free to drop me a line on Twitter ([@JonayaRiley](https://twitter.com/jonayariley)) if you like this or want to suggest additional changes.
 
 If you feel the need to tell me that this is a bad project idea, please don't.
 	
