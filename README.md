@@ -18,26 +18,9 @@ I have attempted to remove ALL instances of these slurs, including at least one 
 
 ### Installation instructions
 
-The files being replaced are located in your asset directory in the following sub-locations:
-```
-\archives\data\mspa.json
-\archives\data\search.json
-\archives\collection\collection_logo.png
-\storyfiles\hs2\00069_2.gif
-\storyfiles\hs2\00249_2.gif
-\storyfiles\hs2\03692\03682.swf
-\storyfiles\hs2\03692\03682_hq.swf
-\storyfiles\hs2\05305\levels\openbound_p2\cronusDialog.xml
-\storyfiles\hs2\05395\levels\openbound_p3\dialogs\rufiohDialog.xml
-\storyfiles\hs2\03318\03318.swf
-\storyfiles\hs2\03318\03318_hq.swf
-\advimgs\ps\ps162.gif
-\advimgs\ps\ps1520_1.gif
-\advimgs\ps\ps1521.gif
-```
-Back this file up if you want to return to the original text for whatever reason.
+This is designed as a simple add-on to the excellent Unofficial Homestuck Collection 2.0 - you can just unpack the included directory into the mods folder inside the asset pack directory for the Unofficial Collection and you're good to go!
 
-You can either manually extract the file or extract the ZIP file into your base asset directory. No other changes are required.
+If you wish to revert to the old version, just deactivate the mod!
 
 ### Additional notes
 
@@ -47,4 +30,4 @@ If you feel the need to tell me that this is a bad project idea, please don't.
 	
 ### Known issues
 
-- Slurs present in all flashes aren't currently addressed (working on it!)
+- Might be a few I've missed. I'll get to them as I can.
